@@ -1,0 +1,1 @@
+- [LAN Calling socket architecture](lan-calling-socket.md) — socket.io server at `/api/socket.io`; device registration + relay model; no WebRTC (Expo Go incompatible).
