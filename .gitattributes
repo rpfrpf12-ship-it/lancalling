@@ -1,0 +1,2 @@
+lancalling-full-backup.tar.gz filter=lfs diff=lfs merge=lfs -text
+lancalling-full-backup.zip filter=lfs diff=lfs merge=lfs -text
