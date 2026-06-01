@@ -120,14 +120,6 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
       setIncomingCall({ fromId: data.from, fromName: data.fromName });
     });
 
-    s.on("call-reject", () => {
-      router.back();
-    });
-
-    s.on("call-end", () => {
-      router.back();
-    });
-
     socketRef.current = s;
     setSocket(s);
   }
